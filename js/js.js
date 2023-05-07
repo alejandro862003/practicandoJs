@@ -6,8 +6,6 @@ ingresarDatos = prompt("Ingresar nombre del estudiante");
 alert("Bienvenido a este sitio " + ingresarDatos);
 console.log(ingresarDatos);
 
-
-
 let ingresarEdad = prompt("¿Que edad tenes?");
 let edadNumero = parseInt(ingresarEdad);
 
@@ -29,6 +27,18 @@ let resultado = num1 - num2;
 alert("El resultado de la resta es: " + resultado);
 */
 
+//Concateneo.
+let ingresarNombre;
+let ingresarApellido;
+
+ingresarNombre = prompt("Ingresar nuevamente tu nombre");
+ingresarApellido = prompt("Ingresar nuevamente tu apellido");
+
+let resultadoDos = ingresarApellido + ingresarNombre;
+alert("Gracias por todo " + ingresarNombre + " " + ingresarApellido);
+console.log(resultadoDos);
+
+//Operacion de suma.
 alert("Aprete el boton para realizar la suma");
 function suma(){
     let num1 = parseInt(prompt("Ingrese el primer numero"));
