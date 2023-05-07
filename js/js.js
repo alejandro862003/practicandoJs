@@ -39,12 +39,20 @@ alert("Gracias por todo " + ingresarNombre + " " + ingresarApellido);
 console.log(resultadoDos);
 
 //Operacion de suma.
-alert("Aprete el boton para realizar la suma");
+alert("Aprete el boton para realizar operaciones de sumas y restas");
 function suma(){
     let num1 = parseInt(prompt("Ingrese el primer numero"));
     let num2 = parseInt(prompt("Ingrese el segundo numero"));
     let resultado = num1 + num2;
     alert("El resultado de la suma es: " + resultado);
+    console.log(resultado);
+}
+
+function restas(){
+    let num1 = parseInt(prompt("Ingrese el primer numero"));
+    let num2 = parseInt(prompt("Ingrese el segundo numero"));
+    let resultado = num1 - num2;
+    alert("El resultado de la resta es: " + resultado);
     console.log(resultado);
 }
 
